@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cadastroaluno.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-sm">
+        <img src="img/aluno.png" alt="system" class="system-img">
+        <h2 class="system-text">Cadastro de Aluno</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="name" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="curso" placeholder="Curso" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="turno" placeholder="Turno" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="registerButton">Cadastrar</button>
+            
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/registerAluno.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
