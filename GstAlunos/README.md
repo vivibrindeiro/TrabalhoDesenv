@@ -9,6 +9,11 @@ O projeto "Gestão de Alunos" é um sistema para gerenciar informações de alun
 - Node.js
 - MongoDB
 
+## Para iniciar o servidor dentro do diretório backend, execute o comando:
+
+- node server.js
+
+
 ## repositório:
 
 git clone https://github.com/vivibrindeiro/TrabalhoDesenv.git
